@@ -3,12 +3,16 @@
 OOP - Ex4
 Very simple GUI example for python client to communicates with the server and "play the game!"
 """
+import random
 from types import SimpleNamespace
 from client import Client
 import json
 from pygame import gfxdraw
 import pygame
 from pygame import *
+import subprocess
+subprocess.Popen(['powershell.exe', f'java -jar Ex4_Server_v0.0.jar {1}'])
+
 
 # init pygame
 WIDTH, HEIGHT = 1080, 720
@@ -162,4 +166,5 @@ while client.is_running() == 'true':
             print(ttl, client.get_info())
 
     client.move()
+# client.stop()
 # game over:
