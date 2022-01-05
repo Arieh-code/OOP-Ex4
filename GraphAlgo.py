@@ -2,16 +2,14 @@ import heapq as hq
 import json
 import math
 from itertools import permutations
-from random import uniform
 from typing import List
 import sys
 from matplotlib import pyplot as plt
-from numpy.compat import long
-from array import *
-from src.GraphAlgoInterface import GraphAlgoInterface
-from src.GraphInterface import GraphInterface
-from src.DiGraph import *
 from collections import deque
+from client_python.DiGraph import DiGraph
+from Gnode import Gnode
+from GraphAlgoInterface import GraphAlgoInterface
+from GraphInterface import GraphInterface
 
 """This class represents algorithms of a graph."""
 
@@ -31,23 +29,20 @@ class GraphAlgo(GraphAlgoInterface):
 
     def load_from_json(self, file_name: str) -> bool:
         try:
-            with open(file_name, 'r') as json_file:
-                json_load = json.load(json_file)
-                graph = DiGraph()
-                for node in json_load['Nodes']:
-                    if "pos" not in node:
-                        graph.add_node(node["id"])
-                    else:
-                        pos = eval(str(node["pos"]))
-                        graph.add_node(node["id"], pos)
-                for edge in json_load['Edges']:
-                    graph.add_edge(edge["src"], edge["dest"], edge["w"])
-                self.graph = graph
-                return True
+            json_load = json.loads(file_name)
+            graph = DiGraph()
+            for node in json_load['Nodes']:
+                if "pos" not in node:
+                    graph.add_node(node["id"])
+                else:
+                    pos = eval(str(node["pos"]))
+                    graph.add_node(node["id"], pos)
+            for edge in json_load['Edges']:
+                graph.add_edge(edge["src"], edge["dest"], edge["w"])
+            self.graph = graph
+            return True
         except Exception as exception:
             raise NotImplementedError
-        finally:
-            json_file.close()
 
     """This function saves the graph in JSON format to a file."""
 
@@ -260,6 +255,3 @@ class GraphAlgo(GraphAlgoInterface):
         if path:
             path.insert(0, curr_node)
         return dist[dest] / 1.0, path
-
-
-
