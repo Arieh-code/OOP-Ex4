@@ -102,6 +102,11 @@ This is case 1 for example:
 ![game_results](https://user-images.githubusercontent.com/68643157/148660893-993b080b-6ce2-4f89-80cd-99b9f6b466a7.png)
 <br />
 
+
+## Short clip of our game<br />
+![short_clip_ex4_AdobeCreativeCloudExpress_AdobeCreativeCloudExpress](https://user-images.githubusercontent.com/68643157/148661181-18729a84-1442-46d6-ab96-5d0cb100f737.gif)
+
+
 ## Running the programme <br />
 
 1. Clone the project from [here](https://github.com/Arieh-code/OOP-Ex4.git) . <br />
