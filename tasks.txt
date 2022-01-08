@@ -1,0 +1,7 @@
+Tasks
+1) readme (arieh)
+2) UML  (Leead)
+3) Tests (Leead)
+4) upload results (arieh)
+5) wiki (arieh)
+6) change code (Leead)

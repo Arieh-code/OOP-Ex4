@@ -1,5 +1,5 @@
 from GraphInterface import GraphInterface
-from client_python.Edge import Edge
+from Edge import Edge
 from Gnode import Gnode
 
 """This class represents graph."""
@@ -14,6 +14,12 @@ class DiGraph(GraphInterface):
         self.mc = 0
 
     """This function returns the number of vertices in this graph. """
+
+    def get_node(self, node_id):
+        """Returns the node of this id if the node is in the graph"""
+        if node_id in self.node_map:
+            return self.node_map.get(node_id)
+        return None
 
     def v_size(self) -> int:
         return len(self.node_map)

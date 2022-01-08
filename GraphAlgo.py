@@ -6,7 +6,7 @@ from typing import List
 import sys
 from matplotlib import pyplot as plt
 from collections import deque
-from client_python.DiGraph import DiGraph
+from DiGraph import DiGraph
 from Gnode import Gnode
 from GraphAlgoInterface import GraphAlgoInterface
 from GraphInterface import GraphInterface

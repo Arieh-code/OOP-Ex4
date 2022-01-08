@@ -3,3 +3,9 @@ This file contains all the needed links for Ex4:
 1. Github: https://github.com/benmoshe/OOP_2021/tree/main/Assignments/Ex4
 2. Main document: https://docs.google.com/document/d/1LrXIX2pLvRIVHdSqVIimCCxL7UBMaogAcLKfr2dOjHk/edit?usp=sharing
 3. Report site: TBD
+
+Questions:
+    1. are the pokemons always on the edges if not do we need to fix them.
+    2. how to pick up a pokemon.
+    3. in the get pokemon does it iclude pokemons the join in the middle.
+    4. how to make the agents move less then 10 times a second
