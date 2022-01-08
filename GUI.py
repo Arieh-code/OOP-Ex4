@@ -2,6 +2,8 @@ import json
 
 import pygame
 from pygame import *
+
+import GameFunc
 from client import Client
 from GameFunc import Game
 
@@ -24,7 +26,7 @@ node_gui = pygame.transform.scale(node_gui, (50, 50))
 
 
 class GUI:
-    def __init__(self, game: Game, client: Client):
+    def __init__(self, game: GameFunc, client: Client):
         self.client = client
         self.game = game
         self.screen = display.set_mode((WIDTH, HEIGHT), depth=32, flags=RESIZABLE)
