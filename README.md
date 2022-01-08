@@ -18,7 +18,7 @@ Our algorithm to allocate which agent will go to catch the pokemon, is a greedy 
 The algorithm time complexity is O(n^2) and space complexity is also O(n^2)
 
 ## Our code structure <br />
-![UML-Ex3](https://user-images.githubusercontent.com/68643157/147404015-a4f46d17-4a1b-4b51-9c4b-1971582e79a4.jpeg)
+![UML](https://user-images.githubusercontent.com/68643157/148660877-b1b33f98-305b-4109-ab2a-a00591838b63.png)
 
 
 
@@ -87,25 +87,25 @@ This is case 1 for example:
 
 - **Allocate Agent** - This will find the best agent for each pokemon. 
 
-## Three graphs: 
-  **G1 as seen above**
-  ![g1](https://user-images.githubusercontent.com/68643157/147391546-43249bb4-3304-42ef-b563-391a5d45c687.png)
+## Three cases: 
+  **Case 3**
+  ![case_3](https://user-images.githubusercontent.com/68643157/148652645-3eb5825f-7143-4244-be00-e0d6d6b93f99.png)
   
-  **G2**
-  ![G2_python](https://user-images.githubusercontent.com/68643157/147391664-5f0d00fd-3425-40c1-af24-84f00d46c4da.png)
+  **Case 7**
+  ![case_7](https://user-images.githubusercontent.com/68643157/148652657-f0a4f33d-5cf9-4ea0-93b6-863507f31d4d.png)
 
-  
-  **G3**
-  ![G3_python](https://user-images.githubusercontent.com/68643157/147391692-46320e0a-3682-462d-b411-39ab0064402d.png)
+  **Case 11**
+  ![case_11](https://user-images.githubusercontent.com/68643157/148652681-fdc67d72-bc56-4c10-8f88-9ed842c6dd42.png)
       
 
 ## Algorithms Results<br />
-![final resutls](https://user-images.githubusercontent.com/68643157/147500595-3f6d75a1-ce99-430d-9a25-b47cad56edf7.jpeg)
+![game_results](https://user-images.githubusercontent.com/68643157/148660893-993b080b-6ce2-4f89-80cd-99b9f6b466a7.png)
 <br />
 
 ## Running the programme <br />
 
-1. Clone the project from [here](https://github.com/Arieh-code/OOP-EX3.git) . <br />
-2. Open the project and go to main.py and read the remarks
+1. Clone the project from [here](https://github.com/Arieh-code/OOP-Ex4.git) . <br />
+2. Open the project and go to Ex4Main and change the case number from 0-15
+3. Download the release code.
 
-The graphs that you can play with are [here:](https://github.com/Arieh-code/OOP-EX3/tree/master/src/data)
+
