@@ -110,7 +110,8 @@ This is case 1 for example:
 ## Running the programme <br />
 
 1. Clone the project from [here](https://github.com/Arieh-code/OOP-Ex4.git). <br />
-2. Open the project and go to Ex4Main and change the case number from 0-15
+2. Open the project and go to Ex4Main and change the case number from 0-15 (picture bellow)
+![run the case](https://user-images.githubusercontent.com/68643157/148662665-7b24ba32-7206-411d-83e4-2264391e3960.png)
 3. Download the release code for [here](https://github.com/Arieh-code/OOP-Ex4/releases/tag/v1.0.0)
 
 
