@@ -89,13 +89,18 @@ This is case 1 for example:
 
 ## Three cases: 
   **Case 3**
-  ![case_3](https://user-images.githubusercontent.com/68643157/148652645-3eb5825f-7143-4244-be00-e0d6d6b93f99.png)
+  
+  <img width="818" alt="updated_case3" src="https://user-images.githubusercontent.com/68643157/148674601-88ff2f15-3cfa-4634-a244-87fea9168a41.png">
+
   
   **Case 7**
-  ![case_7](https://user-images.githubusercontent.com/68643157/148652657-f0a4f33d-5cf9-4ea0-93b6-863507f31d4d.png)
+  
+  <img width="707" alt="updated_case7" src="https://user-images.githubusercontent.com/68643157/148674630-da254465-57b9-4233-9783-e5e318af1bb9.png">
+
 
   **Case 11**
-  ![case_11](https://user-images.githubusercontent.com/68643157/148652681-fdc67d72-bc56-4c10-8f88-9ed842c6dd42.png)
+  
+  <img width="782" alt="updated_case11" src="https://user-images.githubusercontent.com/68643157/148674639-c7468f1e-5aa9-4550-a35d-bdadb567ae84.png">
       
 
 ## Algorithms Results<br />
