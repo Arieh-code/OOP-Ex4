@@ -47,7 +47,8 @@ The algorithm time complexity is O(n^2) and space complexity is also O(n^2)
 This is the Graph User Interface, which will show the graph that we have created <br />
 This is case 1 for example: 
 
-![case_1](https://user-images.githubusercontent.com/68643157/148652409-70aef2b0-4542-43a0-abb6-bbf1c638ff54.png)
+<img width="787" alt="case_1_update" src="https://user-images.githubusercontent.com/68643157/148691010-2eeda779-b8a9-4106-a92c-6e6d34434777.png">
+
 
 ### What's in the picture above: <br />
 
