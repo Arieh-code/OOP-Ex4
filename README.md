@@ -18,7 +18,8 @@ Our algorithm to allocate which agent will go to catch the pokemon, is a greedy 
 The algorithm time complexity is O(n^2) and space complexity is also O(n^2)
 
 ## Our code structure <br />
-![UML](https://user-images.githubusercontent.com/68643157/148660877-b1b33f98-305b-4109-ab2a-a00591838b63.png)
+
+![updated_UML](https://user-images.githubusercontent.com/68643157/148698288-d6b3ee3e-fdf6-4e01-bf5c-7737e4cf381c.png)
 
 
 
