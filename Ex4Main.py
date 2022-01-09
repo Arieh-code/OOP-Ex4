@@ -4,7 +4,7 @@ from GUI import GUI
 from GameFunc import Game
 import subprocess
 
-subprocess.Popen(['powershell.exe', f'java -jar Ex4_Server_v0.0.jar {0}'])
+subprocess.Popen(['powershell.exe', f'java -jar Ex4_Server_v0.0.jar {11}'])
 
 
 def main():
